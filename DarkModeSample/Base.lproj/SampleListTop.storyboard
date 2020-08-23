@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bmg-uB-unb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2kH-oz-9rI">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -38,10 +38,29 @@
                             <outlet property="delegate" destination="Bmg-uB-unb" id="sNj-sw-bU8"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="ダークモードサンプル集" id="K3U-7f-Ly6"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mr-Yn-0G1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="186" y="-59"/>
+            <point key="canvasLocation" x="1095.6521739130435" y="-59.598214285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hBH-b0-mGl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2kH-oz-9rI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U3h-E1-xQG">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Bmg-uB-unb" kind="relationship" relationship="rootViewController" id="PHE-6E-YkE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YPt-Lr-eyu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185.50724637681162" y="-59.598214285714285"/>
         </scene>
     </scenes>
 </document>
