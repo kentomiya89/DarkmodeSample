@@ -16,3 +16,21 @@ class SampleListController: UITableViewController {
     }
 
 }
+
+//UITableView delegate method
+extension SampleListController {
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return SampleListCell.cellTitle.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+                
+        let cell = tableView.dequeueReusableCell(withIdentifier: SampleListCell.cellID, for: indexPath)
+        let title = SampleListCell.cellTitle[indexPath.row]
+        
+        cell.textLabel?.text = title
+        
+        return cell
+    }
+}
