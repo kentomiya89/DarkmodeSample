@@ -12,7 +12,7 @@ import Foundation
 struct SampleListCell {
     
     static var cellTitle: [String] {
-        return ["色の設定の仕方"]
+        return [L10n.howToColorSetting]
     }
     
     static let cellID = "SampleListCell"
