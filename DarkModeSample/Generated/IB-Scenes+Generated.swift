@@ -12,6 +12,9 @@ import UIKit
 
 // swiftlint:disable explicit_type_interface identifier_name line_length type_body_length type_name
 internal enum StoryboardScene {
+  internal enum HowToColorSetting: StoryboardType {
+    internal static let storyboardName = "HowToColorSetting"
+  }
   internal enum LaunchScreen: StoryboardType {
     internal static let storyboardName = "LaunchScreen"
 
