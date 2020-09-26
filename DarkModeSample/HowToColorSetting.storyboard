@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qZ8-gF-Fsc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qZ8-gF-Fsc">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--色の設定の仕方-->
         <scene sceneID="VQO-Z4-b3Y">
             <objects>
-                <viewController id="qZ8-gF-Fsc" sceneMemberID="viewController">
+                <viewController title="色の設定の仕方" id="qZ8-gF-Fsc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SYe-3T-rrk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,7 +25,7 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rVb-rT-VxA">
                                 <rect key="frame" x="20" y="168" width="75" height="75"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="dXM-la-ZvY"/>
                                     <constraint firstAttribute="height" constant="75" id="gZ0-B6-Zfw"/>
@@ -31,26 +33,27 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JRc-3S-wYk">
                                 <rect key="frame" x="20" y="283" width="75" height="75"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" name="SampleColor1"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="jkA-V5-ALo"/>
                                     <constraint firstAttribute="height" constant="75" id="vlp-mg-Gh0"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJH-v5-BGW">
-                                <rect key="frame" x="103" y="283" width="59.5" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カスタムカラー" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJH-v5-BGW">
+                                <rect key="frame" x="103" y="283" width="177.5" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2QY-RN-AyL">
-                                <rect key="frame" x="103" y="168" width="59.5" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="システムカラー" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2QY-RN-AyL">
+                                <rect key="frame" x="103" y="168" width="177.5" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="aXC-bk-NdG"/>
+                        <color key="backgroundColor" red="0.83650420984455964" green="0.83650420984455964" blue="0.83650420984455964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="JRc-3S-wYk" firstAttribute="top" secondItem="rVb-rT-VxA" secondAttribute="bottom" constant="40" id="2Vg-1f-gcH"/>
                             <constraint firstItem="i2w-cJ-bJ3" firstAttribute="top" secondItem="aXC-bk-NdG" secondAttribute="top" constant="30" id="5MJ-cY-0aW"/>
@@ -63,7 +66,6 @@
                             <constraint firstItem="PJH-v5-BGW" firstAttribute="leading" secondItem="JRc-3S-wYk" secondAttribute="trailing" constant="8" id="xdE-eY-fAu"/>
                             <constraint firstItem="2QY-RN-AyL" firstAttribute="leading" secondItem="rVb-rT-VxA" secondAttribute="trailing" constant="8" id="zYU-fW-BTL"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="aXC-bk-NdG"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uhg-9A-yug" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -71,4 +73,12 @@
             <point key="canvasLocation" x="95.652173913043484" y="-6.0267857142857144"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="SampleColor1">
+            <color red="0.68500000238418579" green="1" blue="0.9660000205039978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
