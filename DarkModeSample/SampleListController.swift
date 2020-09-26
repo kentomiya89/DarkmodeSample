@@ -33,4 +33,15 @@ extension SampleListController {
         
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.row {
+        case 0:
+            perform(segue: StoryboardSegue.SampleListTop.howToSegue)
+            break
+        default:
+            break
+        }
+
+    }
 }

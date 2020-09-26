@@ -14,6 +14,8 @@ import UIKit
 internal enum StoryboardScene {
   internal enum HowToColorSetting: StoryboardType {
     internal static let storyboardName = "HowToColorSetting"
+
+    internal static let initialScene = InitialSceneType<UIKit.UIViewController>(storyboard: HowToColorSetting.self)
   }
   internal enum LaunchScreen: StoryboardType {
     internal static let storyboardName = "LaunchScreen"
