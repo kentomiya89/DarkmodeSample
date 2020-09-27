@@ -79,6 +79,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		425B555B25205EE9006A490F /* SampleList */ = {
+			isa = PBXGroup;
+			children = (
+				42C4188724F2304D006CCE4E /* SampleListCell.swift */,
+				425D219F24EA66B9005483B3 /* SampleListController.swift */,
+				425D21A124EA66B9005483B3 /* SampleListTop.storyboard */,
+			);
+			path = SampleList;
+			sourceTree = "<group>";
+		};
+		425B555C25205F11006A490F /* HowToColorSetting */ = {
+			isa = PBXGroup;
+			children = (
+				42C418A124F2BD89006CCE4E /* HowToColorSetting.storyboard */,
+			);
+			path = HowToColorSetting;
+			sourceTree = "<group>";
+		};
+		425B555D25205F34006A490F /* HowToColorSettingInCode */ = {
+			isa = PBXGroup;
+			children = (
+				425B55542520393C006A490F /* HowColorSettingInCodeViewController.swift */,
+				425B555025202EA7006A490F /* HowToColorSettingInCode.storyboard */,
+			);
+			path = HowToColorSettingInCode;
+			sourceTree = "<group>";
+		};
 		425D218F24EA66B9005483B3 = {
 			isa = PBXGroup;
 			children = (
@@ -100,14 +127,11 @@
 		425D219A24EA66B9005483B3 /* DarkModeSample */ = {
 			isa = PBXGroup;
 			children = (
+				425B555B25205EE9006A490F /* SampleList */,
+				425B555C25205F11006A490F /* HowToColorSetting */,
+				425B555D25205F34006A490F /* HowToColorSettingInCode */,
 				425D219B24EA66B9005483B3 /* AppDelegate.swift */,
 				425D219D24EA66B9005483B3 /* SceneDelegate.swift */,
-				425D219F24EA66B9005483B3 /* SampleListController.swift */,
-				42C4188724F2304D006CCE4E /* SampleListCell.swift */,
-				425B55542520393C006A490F /* HowColorSettingInCodeViewController.swift */,
-				425D21A124EA66B9005483B3 /* SampleListTop.storyboard */,
-				42C418A124F2BD89006CCE4E /* HowToColorSetting.storyboard */,
-				425B555025202EA7006A490F /* HowToColorSettingInCode.storyboard */,
 				425D21A424EA66BB005483B3 /* Image.xcassets */,
 				42C4189024F2B0C1006CCE4E /* Color.xcassets */,
 				425D21A624EA66BB005483B3 /* LaunchScreen.storyboard */,
