@@ -11,6 +11,8 @@
 		425B55552520393C006A490F /* HowColorSettingInCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B55542520393C006A490F /* HowColorSettingInCodeViewController.swift */; };
 		425B556125206300006A490F /* ImageSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B556025206300006A490F /* ImageSettingViewController.swift */; };
 		425B55672520632B006A490F /* ImageSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425B55662520632B006A490F /* ImageSetting.storyboard */; };
+		425B556B2520B7E8006A490F /* CgColorSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B556A2520B7E8006A490F /* CgColorSettingViewController.swift */; };
+		425B556F2520B927006A490F /* CgColorSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425B556E2520B927006A490F /* CgColorSetting.storyboard */; };
 		425D219C24EA66B9005483B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425D219B24EA66B9005483B3 /* AppDelegate.swift */; };
 		425D219E24EA66B9005483B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425D219D24EA66B9005483B3 /* SceneDelegate.swift */; };
 		425D21A024EA66B9005483B3 /* SampleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425D219F24EA66B9005483B3 /* SampleListController.swift */; };
@@ -34,6 +36,8 @@
 		425B55542520393C006A490F /* HowColorSettingInCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowColorSettingInCodeViewController.swift; sourceTree = "<group>"; };
 		425B556025206300006A490F /* ImageSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSettingViewController.swift; sourceTree = "<group>"; };
 		425B55662520632B006A490F /* ImageSetting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageSetting.storyboard; sourceTree = "<group>"; };
+		425B556A2520B7E8006A490F /* CgColorSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CgColorSettingViewController.swift; sourceTree = "<group>"; };
+		425B556E2520B927006A490F /* CgColorSetting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CgColorSetting.storyboard; sourceTree = "<group>"; };
 		425D219824EA66B9005483B3 /* DarkModeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkModeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		425D219B24EA66B9005483B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		425D219D24EA66B9005483B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,15 @@
 			path = ImageSetting;
 			sourceTree = "<group>";
 		};
+		425B55692520B7C1006A490F /* CGColorSetting */ = {
+			isa = PBXGroup;
+			children = (
+				425B556A2520B7E8006A490F /* CgColorSettingViewController.swift */,
+				425B556E2520B927006A490F /* CgColorSetting.storyboard */,
+			);
+			path = CGColorSetting;
+			sourceTree = "<group>";
+		};
 		425D218F24EA66B9005483B3 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +157,7 @@
 				425B555C25205F11006A490F /* HowToColorSetting */,
 				425B555D25205F34006A490F /* HowToColorSettingInCode */,
 				425B555F252062DD006A490F /* ImageSetting */,
+				425B55692520B7C1006A490F /* CGColorSetting */,
 				425D219B24EA66B9005483B3 /* AppDelegate.swift */,
 				425D219D24EA66B9005483B3 /* SceneDelegate.swift */,
 				425D21A424EA66BB005483B3 /* Image.xcassets */,
@@ -233,6 +247,7 @@
 				425B555125202EA8006A490F /* HowToColorSettingInCode.storyboard in Resources */,
 				425D21A524EA66BB005483B3 /* Image.xcassets in Resources */,
 				425D21A324EA66B9005483B3 /* SampleListTop.storyboard in Resources */,
+				425B556F2520B927006A490F /* CgColorSetting.storyboard in Resources */,
 				425B55672520632B006A490F /* ImageSetting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +289,7 @@
 				425D21A024EA66B9005483B3 /* SampleListController.swift in Sources */,
 				42C4189E24F2B88A006CCE4E /* Strings+Generated.swift in Sources */,
 				425D219C24EA66B9005483B3 /* AppDelegate.swift in Sources */,
+				425B556B2520B7E8006A490F /* CgColorSettingViewController.swift in Sources */,
 				425D219E24EA66B9005483B3 /* SceneDelegate.swift in Sources */,
 				425B55552520393C006A490F /* HowColorSettingInCodeViewController.swift in Sources */,
 				42C4189F24F2B88A006CCE4E /* XCAssets+Generated.swift in Sources */,

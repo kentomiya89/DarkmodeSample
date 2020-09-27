@@ -10,6 +10,8 @@ import Foundation
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum L10n {
+  /// CGColorでの入れ方
+  internal static let cgColorSetting = L10n.tr("Localizable", "CgColorSetting")
   /// 色の設定の仕方
   internal static let howToColorSetting = L10n.tr("Localizable", "HowToColorSetting")
   /// コードでの色の設定の仕方

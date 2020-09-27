@@ -45,6 +45,7 @@
                         <segue destination="pfM-x1-4RO" kind="show" identifier="HowToSegue" id="1n4-Pa-7Ca"/>
                         <segue destination="Ddz-M6-tOe" kind="show" identifier="HowToInCodeSegue" id="z9Y-EG-Dfb"/>
                         <segue destination="gUA-Ya-gtp" kind="show" identifier="ImageSettingSegue" id="rF9-eG-Z50"/>
+                        <segue destination="SQz-kr-0DF" kind="show" identifier="CgColorSettingSegue" id="5MF-NJ-hjj"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mr-Yn-0G1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -69,7 +70,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ks-lg-Fob" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1754" y="-60"/>
+            <point key="canvasLocation" x="1833" y="-60"/>
         </scene>
         <!--ImageSetting-->
         <scene sceneID="FPh-MQ-65W">
@@ -80,6 +81,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qak-aa-Clk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1754" y="21"/>
+        </scene>
+        <!--CgColorSetting-->
+        <scene sceneID="PkQ-vt-Mky">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CgColorSetting" id="SQz-kr-0DF" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Y1A-Mw-sxn"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IUF-Hl-ZND" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1746" y="117"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hBH-b0-mGl">

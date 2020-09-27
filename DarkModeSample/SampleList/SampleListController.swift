@@ -44,6 +44,10 @@ extension SampleListController {
             break
         case 2:
             perform(segue: StoryboardSegue.SampleListTop.imageSettingSegue)
+            break
+        case 3:
+            perform(segue: StoryboardSegue.SampleListTop.cgColorSettingSegue)
+            break
         default:
             break
         }
