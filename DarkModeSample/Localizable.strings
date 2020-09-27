@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  DarkModeSample
+
+  Created by 宮林健斗 on 2020/08/23.
+  Copyright © 2020 宮林健斗. All rights reserved.
+*/
+
+
+"HowToColorSetting" = "色の設定の仕方";
+"HowToColorSettingInCode" = "コードでの色の設定の仕方";
+"ImageSetting" = "画像の入れ方";
+"CgColorSetting" = "CGColorでの入れ方";
