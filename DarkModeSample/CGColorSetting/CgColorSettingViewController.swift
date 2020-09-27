@@ -10,21 +10,30 @@ import UIKit
 
 class CgColorSettingViewController: UIViewController {
 
+    @IBOutlet weak var cGColorSampleView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        cGColorSampleView.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
+        cGColorSampleView.layer.cornerRadius = 1
+        cGColorSampleView.layer.shadowRadius = 10
+        cGColorSampleView.layer.shadowColor = UIColor.black.cgColor
+        setShadow()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        setShadow()
     }
-    */
 
+    func setShadow() {
+        if UITraitCollection.current.userInterfaceStyle == .light {
+            // ライトは影あり
+            cGColorSampleView.layer.shadowOpacity = 0.8
+        } else {
+            // ダークは影なし
+            cGColorSampleView.layer.shadowOpacity = 0
+        }
+    }
 }
