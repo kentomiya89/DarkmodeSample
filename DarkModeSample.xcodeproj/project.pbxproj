@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425B555125202EA8006A490F /* HowToColorSettingInCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425B555025202EA7006A490F /* HowToColorSettingInCode.storyboard */; };
 		425D219C24EA66B9005483B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425D219B24EA66B9005483B3 /* AppDelegate.swift */; };
 		425D219E24EA66B9005483B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425D219D24EA66B9005483B3 /* SceneDelegate.swift */; };
 		425D21A024EA66B9005483B3 /* SampleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425D219F24EA66B9005483B3 /* SampleListController.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		34BDB78DC3D5096A2964D1AA /* Pods-DarkModeSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkModeSample.release.xcconfig"; path = "Target Support Files/Pods-DarkModeSample/Pods-DarkModeSample.release.xcconfig"; sourceTree = "<group>"; };
+		425B555025202EA7006A490F /* HowToColorSettingInCode.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HowToColorSettingInCode.storyboard; sourceTree = "<group>"; };
 		425D219824EA66B9005483B3 /* DarkModeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkModeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		425D219B24EA66B9005483B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		425D219D24EA66B9005483B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				42C4188724F2304D006CCE4E /* SampleListCell.swift */,
 				425D21A124EA66B9005483B3 /* SampleListTop.storyboard */,
 				42C418A124F2BD89006CCE4E /* HowToColorSetting.storyboard */,
+				425B555025202EA7006A490F /* HowToColorSettingInCode.storyboard */,
 				425D21A424EA66BB005483B3 /* Image.xcassets */,
 				42C4189024F2B0C1006CCE4E /* Color.xcassets */,
 				425D21A624EA66BB005483B3 /* LaunchScreen.storyboard */,
@@ -186,6 +189,7 @@
 				42C4188A24F248FC006CCE4E /* Localizable.strings in Resources */,
 				42C4189124F2B0C1006CCE4E /* Color.xcassets in Resources */,
 				42C418A224F2BD89006CCE4E /* HowToColorSetting.storyboard in Resources */,
+				425B555125202EA8006A490F /* HowToColorSettingInCode.storyboard in Resources */,
 				425D21A524EA66BB005483B3 /* Image.xcassets in Resources */,
 				425D21A324EA66B9005483B3 /* SampleListTop.storyboard in Resources */,
 			);

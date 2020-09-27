@@ -43,6 +43,7 @@
                     <navigationItem key="navigationItem" title="ダークモードサンプル集" id="K3U-7f-Ly6"/>
                     <connections>
                         <segue destination="pfM-x1-4RO" kind="show" identifier="HowToSegue" id="1n4-Pa-7Ca"/>
+                        <segue destination="Ddz-M6-tOe" kind="show" identifier="HowToInCodeSegue" id="z9Y-EG-Dfb"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mr-Yn-0G1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -58,6 +59,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VDD-uJ-C66" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1755" y="-154"/>
+        </scene>
+        <!--HowToColorSettingInCode-->
+        <scene sceneID="VEj-1L-gcu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HowToColorSettingInCode" id="Ddz-M6-tOe" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ZbF-4G-uUV"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ks-lg-Fob" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1754" y="-60"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hBH-b0-mGl">

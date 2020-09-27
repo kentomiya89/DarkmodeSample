@@ -39,6 +39,8 @@ extension SampleListController {
         case 0:
             perform(segue: StoryboardSegue.SampleListTop.howToSegue)
             break
+        case 1:
+            perform(segue: StoryboardSegue.SampleListTop.howToInCodeSegue)
         default:
             break
         }
