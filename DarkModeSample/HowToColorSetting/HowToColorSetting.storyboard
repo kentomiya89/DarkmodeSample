@@ -75,7 +75,7 @@
     </scenes>
     <resources>
         <namedColor name="SampleBackgroundColor">
-            <color red="0.85451748704663211" green="0.85451748704663211" blue="0.85451748704663211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.85500001907348633" green="0.85500001907348633" blue="0.85500001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="SampleColor1">
             <color red="0.68500000238418579" green="1" blue="0.9660000205039978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

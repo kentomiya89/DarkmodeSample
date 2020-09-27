@@ -4,8 +4,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,8 +16,29 @@
                     <view key="view" contentMode="scaleToFill" id="KAu-4H-aX4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="画像サンプル" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbK-o2-gRr">
+                                <rect key="frame" x="71.5" y="224" width="271.5" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SampleImage" translatesAutoresizingMaskIntoConstraints="NO" id="Pew-EA-Y4u">
+                                <rect key="frame" x="82" y="328" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="K5u-cw-kAw"/>
+                                    <constraint firstAttribute="height" constant="250" id="mAE-Ih-SuF"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ZA9-HC-xRz"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="SampleBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bbK-o2-gRr" firstAttribute="centerX" secondItem="ZA9-HC-xRz" secondAttribute="centerX" id="HdN-C3-m1Q"/>
+                            <constraint firstItem="Pew-EA-Y4u" firstAttribute="centerY" secondItem="ZA9-HC-xRz" secondAttribute="centerY" id="HhJ-Qi-Gbd"/>
+                            <constraint firstItem="Pew-EA-Y4u" firstAttribute="top" secondItem="bbK-o2-gRr" secondAttribute="bottom" constant="50" id="Vf2-dW-XUN"/>
+                            <constraint firstItem="Pew-EA-Y4u" firstAttribute="centerX" secondItem="ZA9-HC-xRz" secondAttribute="centerX" id="oad-ME-PNo"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mVb-v6-5tb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -26,8 +47,9 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="SampleImage" width="307.5" height="400"/>
+        <namedColor name="SampleBackgroundColor">
+            <color red="0.85500001907348633" green="0.85500001907348633" blue="0.85500001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
