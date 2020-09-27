@@ -41,6 +41,9 @@ extension SampleListController {
             break
         case 1:
             perform(segue: StoryboardSegue.SampleListTop.howToInCodeSegue)
+            break
+        case 2:
+            perform(segue: StoryboardSegue.SampleListTop.imageSettingSegue)
         default:
             break
         }
