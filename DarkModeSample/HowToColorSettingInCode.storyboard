@@ -4,8 +4,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -64,7 +64,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hv7-iH-ZxV"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="SampleBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="7UO-r8-w85" firstAttribute="leading" secondItem="hv7-iH-ZxV" secondAttribute="leading" constant="20" id="4Sn-Wh-7eU"/>
                             <constraint firstItem="SBV-QP-cB4" firstAttribute="top" secondItem="hv7-iH-ZxV" secondAttribute="top" constant="30" id="5EA-9g-zAN"/>
@@ -94,8 +94,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <namedColor name="SampleBackgroundColor">
+            <color red="0.85451748704663211" green="0.85451748704663211" blue="0.85451748704663211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

@@ -53,7 +53,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aXC-bk-NdG"/>
-                        <color key="backgroundColor" red="0.83650420984455964" green="0.83650420984455964" blue="0.83650420984455964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="SampleBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="JRc-3S-wYk" firstAttribute="top" secondItem="rVb-rT-VxA" secondAttribute="bottom" constant="40" id="2Vg-1f-gcH"/>
                             <constraint firstItem="i2w-cJ-bJ3" firstAttribute="top" secondItem="aXC-bk-NdG" secondAttribute="top" constant="30" id="5MJ-cY-0aW"/>
@@ -74,6 +74,9 @@
         </scene>
     </scenes>
     <resources>
+        <namedColor name="SampleBackgroundColor">
+            <color red="0.85451748704663211" green="0.85451748704663211" blue="0.85451748704663211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="SampleColor1">
             <color red="0.68500000238418579" green="1" blue="0.9660000205039978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
